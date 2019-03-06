@@ -1,0 +1,100 @@
+html {
+  background: #13161C;
+  color: #fff;
+  font-family: "heiti tc";
+}
+
+.menu {
+  color: #4D4D4D;
+  position: relative;
+  display: inline-block;
+  grid-row: 3;
+  grid-column: 1 / 3;
+}
+
+.buttons {
+background-color: #13161C;
+color: #4D4D4D;
+font-size: 13px;
+border: 0 #13161C;
+font-family: "Heiti TC";
+height: 50px;
+margin-top: 0%;
+text-decoration: none;
+border: none;
+cursor: pointer;
+padding: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+.buttons {
+transition-duration: .8s;
+}
+
+.buttons:focus {
+outline: none;
+}
+.buttons:active {
+color: #212121;
+}
+
+.button1:hover {
+background-color: #C4E7D4;  
+}
+
+.button2:hover {
+background-color: #D0EFB1;
+}
+
+.button3:hover {
+background-color: #B0B5B3;
+}
+
+.button4:hover {
+background-color: #B3D89C;
+}
+
+.button5:hover {
+background-color: #B0B5B3;
+}
+
+.button_right {
+right: 200px;
+grid-row: 1;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: .50fr 0.35fr .50fr;
+  grid-template-rows: 0.1fr 1.7fr 0.2fr;
+  background-color: #13161C;
+  height: 100vh;
+}
+
+.inner-grid {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 6fr 1fr 3fr 13fr 7fr 6fr 11fr;
+    grid-template-rows: 7fr 12fr 6fr 12fr 9fr 11fr 18fr 10fr;
+    height: 100%;
+    grid-gap: 5px;   
+    position :relative;
+    animation-name: myrotate;
+    animation-delay: 5s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@media only screen and (max-width: 750px) {
+  .main-grid {
+      grid-column: 1 / 3;
+      grid-row: 1 / 3;
+      width: 200px;
+  }
+}

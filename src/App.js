@@ -1,25 +1,34 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import '../src/styles/App.css';
+import '../src/styles/landing.css';
+import { Content, Footer, FooterSection, FooterLinkList } from 'react-mdl';
+import Main from './components/main.js'
+import { Link } from 'react-router-dom'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div>
+        <Content>
+          <div class="main-content">
+            <Main>
+
+            </Main>
+          </div>
+        </Content>
+          <div class="footer">
+            <Footer size="mini">
+                <FooterSection type="left">
+                    <FooterLinkList>
+                        <Link to="/aboutme" class="button1">about me</Link>
+                        <Link to="/projects">links.projects</Link>
+                        <Link to="/resume">cv</Link>
+                        <Link to="/contact">contact</Link>
+                        <Link to="/music">music</Link>
+                    </FooterLinkList>
+                </FooterSection>
+            </Footer>
+          </div>
       </div>
     );
   }
