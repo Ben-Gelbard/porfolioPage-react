@@ -22,6 +22,10 @@
 
 .rectangle {
   transition-duration: 1s;
+  color: #212121;
+  margin: initial;
+  text-align: center; 
+  line-height: 160px
 }
 
     /* angleblue */
@@ -209,6 +213,26 @@
   border-radius: 50%;
 }
 
+.rectanglelink:hover {
+  transition-duration: 1s;
+  transform: rotate(-45deg);
+  animation: change 2s infinite;
+  cursor: cell
+}
+
+
+@keyframes change {
+  0% {
+    background-color: #B3D89C;
+  }
+  50% {
+    background-color: beige;
+  }
+  100% {
+    background-color: #B3D89C;
+  }
+}
+
 
 @keyframes warpshapes {
   from {
@@ -216,8 +240,6 @@
   }
   to {
     border-radius: 50%;
-    background-color:red;
-    /* float: left; */
   }
 }
 

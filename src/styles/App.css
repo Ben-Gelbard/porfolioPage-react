@@ -2,6 +2,7 @@ html {
   background: #13161C;
   color: #fff;
   font-family: "heiti tc";
+  min-height: 100%;
 }
 
 .footer {
@@ -28,6 +29,19 @@ padding: 10px;
 padding-top: 0px;
 padding-bottom: 0px;
 }
+
+button {
+  background-color: #13161C;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 100;
+  border: 0 #13161C;
+  font-family: "Heiti TC";
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  }
+
 
 .buttons {
 transition-duration: .8s;

@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 class Music extends Component {
     render() {
         return(
-            <div class="grid">
+            <div className="grid">
 {/*                             
             <p class="about_albums"> 
                 Music has always been one of the biggest influencers for projects and design, and this site
@@ -38,25 +38,25 @@ class Music extends Component {
                 <br>
             </p> */}
 
-        <div class="inner-grid">
-            <div class="main-grid">
+        <div className="inner-grid">
+            <div className="main-grid">
                 
-                <div class="rectangle rectangle2"></div>
-                <div class="rectangle rectangle3"></div>
-                <div class="rectangle rectangle4"></div>
-                <div class="rectangle rectangle5"></div>
-                <div class="rectangle rectangle6"></div>
-                <div class="rectangle rectangle7"></div>
-                <div class="rectangle rectangle8"></div>
-                <div class="rectangle rectangle9"></div>
-                <div class="rectangle rectangle10"></div>
-                <div class="rectangle rectangle11"></div>
-                <div class="rectangle rectangle12"></div>
-                <div class="rectangle rectangle13"></div>
-                <div class="rectangle rectangle14"></div>
-                <div class="rectangle rectangle15"></div>
-                <div class="rectangle rectangle1"></div>
-                <div class="name">albums</div>
+                <div className="rectangle rectangle2"></div>
+                <div className="rectangle rectangle3"></div>
+                <div className="rectangle rectangle4"></div>
+                <div className="rectangle rectangle5"></div>
+                <div className="rectangle rectangle6"></div>
+                <div className="rectangle rectangle7"></div>
+                <div className="rectangle rectangle8"></div>
+                <div className="rectangle rectangle9"></div>
+                <div className="rectangle rectangle10"></div>
+                <div className="rectangle rectangle11"></div>
+                <div className="rectangle rectangle12"></div>
+                <div className="rectangle rectangle13"></div>
+                <div className="rectangle rectangle14"></div>
+                <div className="rectangle rectangle15"></div>
+                <div className="rectangle rectangle1"></div>
+                <div className="name">albums</div>
 
             </div>
 
